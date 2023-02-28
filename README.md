@@ -158,7 +158,7 @@ public class RequestResponseBodyMethodProcessor extends AbstractMessageConverter
 
 ```
 
-# *Spring Validation*中的ValidationAnnotationUtils
+## *Spring Validation*中的ValidationAnnotationUtils
 该类属于*Spring Validation*，不是*Spring Web*的。
 ```java
 public abstract class ValidationAnnotationUtils {
@@ -195,7 +195,7 @@ public abstract class ValidationAnnotationUtils {
 	...
 }
 ```
-# *Spring Web*中的DataBinder
+## *Spring Web*中的DataBinder
 ```java
 public class DataBinder implements PropertyEditorRegistry, TypeConverter {
 
