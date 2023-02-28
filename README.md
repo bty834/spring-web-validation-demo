@@ -2,9 +2,9 @@
 
 名词解释：
 - *Jsr 303*：Jsr 303规范，规范代码在`javax.validation`包
-- *Spring Validation*：Spring Framework中数据绑定和校验实现，目的是适配*Jsr 303*到Spring体系中，并对*Jsr 303*做了扩展，代码在`org.springframework.validation`包
+- *Spring Validation*：Spring Framework中数据绑定和校验实现，目的是适配*Jsr 303*到Spring体系中，并对*Jsr 303*做了扩展，Designed for convenient use with Spring's JSR-303 support but not JSR-303 specific，代码在`org.springframework.validation`包
 - *Hibernate Validator*：Jsr303规范的实现，pom依赖`hibernate-validator`
-- *Spring Web*：spring web包对*Spring Validation*规范的实现。需要兼容*Jsr303*规范，但*Spring Web*没有提供对*Jsr303*规范的实现
+- *Spring Web*：spring web借助*Spring Validation*完成对请求体和响应体的校验。需要兼容*Jsr303*规范，但*Spring Web*没有提供对*Jsr303*规范的实现
 - *Spring Boot* ：spring-boot-starter-validation 和 spring-boot-starter-web ，前者提供了*Jsr303*的实现Hibernate-validator
 # JSR 303
 原文请参考 [JSR 303: Bean Validation](https://beanvalidation.org/1.0/spec/)。
